@@ -1,0 +1,2 @@
+verilog work "convert_to_baud.v"
+verilog work "uart_tx.v"

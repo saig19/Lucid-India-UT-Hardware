@@ -1,0 +1,179 @@
+xst -intstyle ise -ifn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.xst" -ofn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.syr" 
+xst -intstyle ise -ifn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.xst" -ofn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.syr" 
+xst -intstyle ise -ifn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.xst" -ofn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.syr" 
+xst -intstyle ise -ifn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.xst" -ofn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.syr" 
+xst -intstyle ise -ifn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.xst" -ofn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.syr" 
+xst -intstyle ise -ifn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.xst" -ofn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.syr" 
+xst -intstyle ise -ifn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.xst" -ofn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.syr" 
+xst -intstyle ise -ifn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.xst" -ofn "C:/Users/Pranav Cherukupalli/Google Drive/Notes/3rd Year/6th Semester/VLSI LAb/Session 7/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -t 1 uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/edlab/Desktop/EDM14B009_10/Session 7/UART_Tx/uart_tx.xst" -ofn "C:/Users/edlab/Desktop/EDM14B009_10/Session 7/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc3s500e-fg320-4 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -t 1 uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/edlab/Desktop/EDM14B009_10/Session 7/UART_Tx/uart_tx.xst" -ofn "C:/Users/edlab/Desktop/EDM14B009_10/Session 7/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc3s500e-fg320-4 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -t 1 uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/edlab/Desktop/EDM14B009_10/Session 7/UART_Tx/uart_tx.xst" -ofn "C:/Users/edlab/Desktop/EDM14B009_10/Session 7/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc3s500e-fg320-4 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -t 1 uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/edlab/Desktop/EDM14B009_10/Session 7/UART_Tx/uart_tx.xst" -ofn "C:/Users/edlab/Desktop/EDM14B009_10/Session 7/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc3s500e-fg320-4 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -t 1 uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc3s500e-fg320-4 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 
+xst -intstyle ise -ifn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.xst" -ofn "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/uart_tx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_tx.ucf -p xc6slx9-csg324-3 "uart_tx.ngc" uart_tx.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o uart_tx_map.ncd uart_tx.ngd uart_tx.pcf 
+par -w -intstyle ise -ol high -mt off uart_tx_map.ncd uart_tx.ncd uart_tx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml uart_tx.twx uart_tx.ncd -o uart_tx.twr uart_tx.pcf -ucf uart_tx.ucf 
+bitgen -intstyle ise -f uart_tx.ut uart_tx.ncd 

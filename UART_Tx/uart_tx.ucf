@@ -1,0 +1,7 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk_50M" LOC = V10 | IOSTANDARD = LVCMOS33 | PERIOD = 100MHz;
+NET "rst"           LOC = M18  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLDOWN;
+NET "tx" LOC = U7;
+NET "ch"           LOC = P15 | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;

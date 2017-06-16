@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\jani\Desktop\LUCID intern\ise projects\ttllogic ctr\UART_Tx\uart_tx.ncd
+OUTFILE=C:\Users\jani\Desktop\LUCID intern\ise projects\ttllogic ctr\UART_Tx\uart_tx.bit
+FAMILY=Spartan6
+PART=xc6slx9-3csg324
+WORKINGDIR=C:\Users\jani\Desktop\LUCID intern\ise projects\ttllogic ctr\UART_Tx
+LICENSE=WebPack
+USER_INFO=210673530_0_0_679

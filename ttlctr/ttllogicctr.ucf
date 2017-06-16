@@ -1,0 +1,14 @@
+#NET "ip" CLOCK_DEDICATED_ROUTE = FALSE; 
+NET "CLK" LOC = V10 | IOSTANDARD = LVCMOS33 | PERIOD = 100MHz;
+
+
+#NET "ip" LOC = M18;
+
+#NET "reset" LOC = L18;
+
+
+#NET "op" LOC = P15;
+NET "ip"              LOC = R8  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; 
+NET "reset"           LOC = L18   | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLDOWN; 
+NET "op"              LOC = P15  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+NET "ch"              LOC = T8  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;

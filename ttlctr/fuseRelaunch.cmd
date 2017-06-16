@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/ttlctr/ttllogicctr_isim_beh.exe" -prj "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/ttlctr/ttllogicctr_beh.prj" "work.ttllogicctr" "work.glbl" 

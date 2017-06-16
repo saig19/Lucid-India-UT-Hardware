@@ -1,0 +1,29 @@
+Command line:
+   convert_to_baud_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49807
+
+Thu May 25 10:32:23 2017
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 1014.08 Meg
+
+ Total Signals          : 15
+ Total Nets             : 16
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 113
+Total Line Count : 24
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 1014.04 Meg
+
+Thu May 25 10:33:20 2017
+

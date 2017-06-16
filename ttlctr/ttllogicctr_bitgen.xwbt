@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\jani\Desktop\LUCID intern\ise projects\ttllogic ctr\ttlctr\ttllogicctr.ncd
+OUTFILE=C:\Users\jani\Desktop\LUCID intern\ise projects\ttllogic ctr\ttlctr\ttllogicctr.bit
+FAMILY=Spartan6
+PART=xc6slx9-3csg324
+WORKINGDIR=C:\Users\jani\Desktop\LUCID intern\ise projects\ttllogic ctr\ttlctr
+LICENSE=WebPack
+USER_INFO=210673530_0_0_679

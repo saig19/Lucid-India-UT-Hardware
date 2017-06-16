@@ -1,0 +1,13 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Jun 09 14:19:39 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "ip" LOCATE = SITE "R8" LEVEL 1;
+COMP "op" LOCATE = SITE "P15" LEVEL 1;
+COMP "reset" LOCATE = SITE "L18" LEVEL 1;
+COMP "ch" LOCATE = SITE "T8" LEVEL 1;
+NET "clk_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

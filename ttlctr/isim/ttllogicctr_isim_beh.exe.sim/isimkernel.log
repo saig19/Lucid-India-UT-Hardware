@@ -1,0 +1,29 @@
+Command line:
+   ttllogicctr_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56280
+
+Tue May 23 12:08:18 2017
+
+
+ Elaboration Time: 0.234375 sec
+
+ Current Memory Usage: 856.781 Meg
+
+ Total Signals          : 17
+ Total Nets             : 18
+ Total Signal Drivers   : 7
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 112
+Total Line Count : 31
+
+ Total Simulation Time: 0.46875 sec
+
+ Current Memory Usage: 384.86 Meg
+
+Tue May 23 12:11:22 2017
+

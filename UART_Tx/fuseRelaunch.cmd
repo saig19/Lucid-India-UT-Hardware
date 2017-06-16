@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/convert_to_baud_isim_beh.exe" -prj "C:/Users/jani/Desktop/LUCID intern/ise projects/ttllogic ctr/UART_Tx/convert_to_baud_beh.prj" "work.convert_to_baud" "work.glbl" 
